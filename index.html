@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>social survey</title>
+        <meta charset="utf-8">
+    </head>
+    <body>
+        <form action="https://formspree.io/oksanavengrun@gmail.com" method="POST">
+            <h1>Яке морозиво вам подобається найбільше?</h1>
+            <p>Вкажіть вашу стать</p>
+                <p><input name="female" type="radio" value="female">Жінка</p>
+                <p><input name="male" type="radio" value="male"> Чоловік</p>
+            <p>Вкажіть до якої вікової категорії ви належите</p>
+                <p><select size="2" multiple name="age" required>
+                    <option value="15-20">15-20</option>
+                    <option value="21-27">21-27</option>
+                    <option value="28-35> 28-35</option>
+                    <option value="36-40">36-40</option>
+                    <option value="41-46">41-46</option>
+                    <option value="47-90">47-90</option>
+                </select></p>
+            <p>Ваше улюблене морозиво</p>
+                <p><input name="vanilla" type="checkbox" value="vanilla">Ванільне</p>
+                <p><input name="chocolate" type="checkbox" value="chocolate">Шоколадне</p>
+                <p><input name="fruit" type="checkbox" value="fruit">Фруктове</p>
+                <label for="other variant">Ваш варіант</label><br>
+                <input type="text" name="other variant" id="other variant">
+            <p><input type="submit" value="Підтвердити"></p>
+        </form>
+    </body>
+</html>
